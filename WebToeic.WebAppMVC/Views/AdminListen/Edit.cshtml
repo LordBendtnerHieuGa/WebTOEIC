@@ -1,0 +1,81 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Chỉnh sửa bài Listening";
+}
+
+
+<div class="text-center" style="padding-top: 20px;">
+    <h2>Chỉnh sửa bài nghe và nội dung bài nghe</h2>
+</div>
+<div class="container">
+    <div class="row border border-info rounded p-4">
+        <div class="col-6 offset-3">
+            <form method="post" href="/AdminListen/Edit" enctype="multipart/form-data">
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                <div>
+                    <label> Nhập tên bài nghe </label>
+                    <input type="text" name="listenName" class="form-control"/>
+
+                </div>
+                <div class="form-group">
+                    <label for="levelDropdown">Chọn Level (1,2):</label>
+                    <select id="levelDropdown" name="selectedLevel" class="form-control">
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="partDropdown">Chọn Part (1,2,3,4):</label>
+                    <select id="partDropdown" name="selectedPart" class="form-control">
+                        <option value="1">Part1</option>
+                        <option value="2">Part2</option>
+                        <option value="3">Part3</option>
+                        <option value="4">Part4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label> Thêm ảnh cho bài nghe</label>
+                    <input type="file" name="imageFile" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label> Thêm nội dung bài nghe (File Excel)</label>
+                    <input type="file" name="excelFile" class="form-control" accept=".csv,.xls,.xlsx" />
+                </div>
+                <div class="form-group">
+                    <label> Thêm ảnh cho nội dung bài nghe (Part 1 bắt buộc phải thêm ảnh)</label>
+                    <input type="file" name="imagesFile" class="form-control" multiple />
+                </div>
+                <div class="form-group">
+                    <label> Thêm audio (mp3) cho nội dung bài nghe</label>
+                    <input type="file" name="audiosFile" class="form-control" multiple />
+                </div>
+
+                <button type="button" class="btn btn-danger" onclick="CancelLFunction()">Cancel</button>
+                <input type="submit" class="btn btn-sm btn-primary float-right" value="Submit" />
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function CancelLFunction() {
+        window.location.href = '/AdminListen';
+    }
+
+</script>

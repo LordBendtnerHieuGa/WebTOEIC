@@ -1,0 +1,233 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebToeic.WebAppMVC
+build_property.RootNamespace = WebToeic.WebAppMVC
+build_property.ProjectDir = C:\MyProject\WebToeic\WebToeic.WebAppMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\MyProject\WebToeic\WebToeic.WebAppMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminAcc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BY2NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminAcc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BY2NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminCmtGrammar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DbXRHcmFtbWFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminCmtListen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DbXRMaXN0ZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminCmtRead/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DbXRSZWFkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminCmtVoca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DbXRWb2NhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminExam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5FeGFtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminExam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5FeGFtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminExam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5FeGFtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminGrammar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HcmFtbWFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminGrammar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HcmFtbWFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminGrammar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HcmFtbWFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminListen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MaXN0ZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminListen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MaXN0ZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminListen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MaXN0ZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRead/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWFkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRead/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWFkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRead/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWFkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRole/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb2xlXENyZWF0ZVJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRole/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb2xlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRole/EditUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb2xlXEVkaXRVc2Vyc0luUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminRole/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb2xlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminVocabulary/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Wb2NhYnVsYXJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminVocabulary/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Wb2NhYnVsYXJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/AdminVocabulary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Wb2NhYnVsYXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Information/EditInfor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cRWRpdEluZm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/PaginationAdminPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnaW5hdGlvbkFkbWluUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/GrammarCreateModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdyYW1tYXJDcmVhdGVNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserExam/DoExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckV4YW1cRG9FeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserExam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckV4YW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserGrammar/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdyYW1tYXJcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserGrammar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdyYW1tYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserInfor/EditInforUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yXEVkaXRJbmZvclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserListen/DoListen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxpc3RlblxEb0xpc3Rlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserListen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxpc3RlblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserRead/DoRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlYWRcRG9SZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserRead/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlYWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserVocabulary/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZvY2FidWxhcnlcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/UserVocabulary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZvY2FidWxhcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uf0tp6l861
+
+[C:/MyProject/WebToeic/WebToeic.WebAppMVC/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-40zsjnnt0g

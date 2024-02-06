@@ -1,0 +1,1085 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebToeic.WebAppMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebToeic.WebAppMVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesExam\\1.mini-test.png",
+      "PackagePath": "staticwebassets\\ImagesExam\\1.mini-test.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesExam\\2.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\ImagesExam\\2.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesExam\\3.mini-test.png",
+      "PackagePath": "staticwebassets\\ImagesExam\\3.mini-test.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesExam\\4.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\ImagesExam\\4.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesExam\\5.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\ImagesExam\\5.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesGrammar\\13.gioitu.jpg",
+      "PackagePath": "staticwebassets\\ImagesGrammar\\13.gioitu.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesGrammar\\14.cautrucusedto.jpg",
+      "PackagePath": "staticwebassets\\ImagesGrammar\\14.cautrucusedto.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesGrammar\\15.each_other.jpg",
+      "PackagePath": "staticwebassets\\ImagesGrammar\\15.each_other.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesGrammar\\16.aslongas.jpg",
+      "PackagePath": "staticwebassets\\ImagesGrammar\\16.aslongas.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\1.business plan.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\1.business plan.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.address.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.address.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.avoid.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.avoid.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.computerandtheinternet.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.computerandtheinternet.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.demonstrate.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.demonstrate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.develop.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.develop.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.evaluate.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.evaluate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.gather.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.gather.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.offer.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.offer.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.primarily.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.primarily.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.risk.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.risk.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\2.strategy.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\2.strategy.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\3.Salaries-and-Benefits.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\3.Salaries-and-Benefits.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\4.summer.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\4.summer.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\ImagesVocabulary\\5.summer.jpg",
+      "PackagePath": "staticwebassets\\ImagesVocabulary\\5.summer.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.address.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.address.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.avoid.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.avoid.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.demonstrate.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.demonstrate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.develop.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.develop.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.evaluate.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.evaluate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.gather.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.gather.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.offer.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.offer.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.primarily.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.primarily.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.risk.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.risk.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\VocaMP3\\2.strategy.mp3",
+      "PackagePath": "staticwebassets\\VocaMP3\\2.strategy.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssEditInfor\\stylesEditInfor.css",
+      "PackagePath": "staticwebassets\\cssEditInfor\\stylesEditInfor.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\bootstrap.css",
+      "PackagePath": "staticwebassets\\cssHome\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\colors.css",
+      "PackagePath": "staticwebassets\\cssHome\\colors.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\cssHome\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\responsive.css",
+      "PackagePath": "staticwebassets\\cssHome\\responsive.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\styleHome.css",
+      "PackagePath": "staticwebassets\\cssHome\\styleHome.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\cssHome\\version\\tech.css",
+      "PackagePath": "staticwebassets\\cssHome\\version\\tech.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\aaa.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\aaa.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\ads-bg.png",
+      "PackagePath": "staticwebassets\\imagesHome\\ads-bg.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\imagesHome\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\arrow.png",
+      "PackagePath": "staticwebassets\\imagesHome\\arrow.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\background3.png",
+      "PackagePath": "staticwebassets\\imagesHome\\background3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\favicon.ico",
+      "PackagePath": "staticwebassets\\imagesHome\\favicon.ico"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\favicon.png",
+      "PackagePath": "staticwebassets\\imagesHome\\favicon.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\feature-lamdethithu.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\feature-lamdethithu.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\feature-listenandread.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\feature-listenandread.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\feature-vocabulary1.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\feature-vocabulary1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\footer.png",
+      "PackagePath": "staticwebassets\\imagesHome\\footer.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\hover.png",
+      "PackagePath": "staticwebassets\\imagesHome\\hover.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\loader.gif",
+      "PackagePath": "staticwebassets\\imagesHome\\loader.gif"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\logo.png",
+      "PackagePath": "staticwebassets\\imagesHome\\logo.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\menubg.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\menubg.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\slide1.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\slide2.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\slide3.jpg",
+      "PackagePath": "staticwebassets\\imagesHome\\slide3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\version\\tech-footer-logo.png",
+      "PackagePath": "staticwebassets\\imagesHome\\version\\tech-footer-logo.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\version\\tech-logo.png",
+      "PackagePath": "staticwebassets\\imagesHome\\version\\tech-logo.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\imagesHome\\videohover.png",
+      "PackagePath": "staticwebassets\\imagesHome\\videohover.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\jsHome\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\jsHome\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\jsHome\\custom.js",
+      "PackagePath": "staticwebassets\\jsHome\\custom.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\jsHome\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jsHome\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\jsHome\\tether.min.js",
+      "PackagePath": "staticwebassets\\jsHome\\tether.min.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\js\\GrammarCreatModal.js",
+      "PackagePath": "staticwebassets\\js\\GrammarCreatModal.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num1.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num1.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num10.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num10.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num11.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num11.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num12.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num12.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num13.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num13.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num14.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num14.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num15-16-17.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num15-16-17.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num18-19-20.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num18-19-20.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num2.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num2.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num21-22-23.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num21-22-23.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num24-25-26.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num24-25-26.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num27-28-29.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num27-28-29.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num3.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num3.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num30-31-32.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num30-31-32.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num33-34-35.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num33-34-35.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num36-37-38.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num36-37-38.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num39-40-41.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num39-40-41.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num4.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num4.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num42-43-44.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num42-43-44.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num45-46-47.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num45-46-47.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num48-49-50.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num48-49-50.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num5.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num5.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num6.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num6.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num7.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num7.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num8.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num8.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\1.num9.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\1.num9.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num1.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num1.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num10.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num10.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num11.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num11.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num12.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num12.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num13.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num13.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num14.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num14.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num15-16-17.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num15-16-17.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num18-19-20.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num18-19-20.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num2.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num2.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num21-22-23.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num21-22-23.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num24-25-26.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num24-25-26.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num27-28-29.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num27-28-29.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num3.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num3.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num30-31-32.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num30-31-32.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num33-34-35.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num33-34-35.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num36-37-38.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num36-37-38.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num39-40-41.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num39-40-41.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num4.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num4.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num42-43-44.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num42-43-44.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num45-46-47.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num45-46-47.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num48-49-50.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num48-49-50.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num5.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num5.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num6.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num6.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num7.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num7.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num8.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num8.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioExam\\2.num9.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioExam\\2.num9.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART-1.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART-1.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART-2.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART-2.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART-3.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART-3.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART-4.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART-4.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART1_2.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART1_2.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART1_3.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART1_3.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioListen\\PART1_4.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioListen\\PART1_4.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.address.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.address.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.avoid.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.avoid.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.demonstrate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.demonstrate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.develop.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.develop.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.evaluate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.evaluate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.gather.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.gather.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.offer.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.offer.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.primarily.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.primarily.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.risk.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.risk.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\2.strategy.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\2.strategy.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.access.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.access.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.allocate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.allocate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.compatible.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.compatible.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.delete.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.delete.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.display.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.display.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.duplicate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.duplicate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.failure.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.failure.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.figure_out.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.figure_out.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.ignore.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.ignore.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\3.search.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\3.search.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.basis.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.basis.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.benefit.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.benefit.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.compensate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.compensate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.delicately.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.delicately.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.eligible.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.eligible.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.flexibly.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.flexibly.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.negotiate.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.negotiate.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.raise.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.raise.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.retire.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.retire.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsAudioVoca\\6.vested.mp3",
+      "PackagePath": "staticwebassets\\uploadsAudioVoca\\6.vested.mp3"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\1.exam_mini_test.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\1.exam_mini_test.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\1.mini-test.png",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\1.mini-test.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\1.num1.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\1.num1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\1.num2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\1.num2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\1.num3.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\1.num3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\2.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\2.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\2.num1.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\2.num1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\2.num2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\2.num2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\2.num3.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\2.num3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\3.mini-test.png",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\3.mini-test.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\3.num1.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\3.num1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\3.num2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\3.num2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\3.num3.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\3.num3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\4.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\4.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\4.num1.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\4.num1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\4.num2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\4.num2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\4.num3.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\4.num3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\5.exam-test.jpeg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\5.exam-test.jpeg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\5.num1.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\5.num1.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\5.num2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\5.num2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\5.num3.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\5.num3.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageExam\\logofit.png",
+      "PackagePath": "staticwebassets\\uploadsImageExam\\logofit.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageGrammar\\13.gioitu.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageGrammar\\13.gioitu.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageGrammar\\14.cautrucusedto.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageGrammar\\14.cautrucusedto.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageGrammar\\23.thi_htht_anhngumshoa.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageGrammar\\23.thi_htht_anhngumshoa.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageGrammar\\logofit.png",
+      "PackagePath": "staticwebassets\\uploadsImageGrammar\\logofit.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageGrammar\\thi-hien-tai-hoan-thanh.png",
+      "PackagePath": "staticwebassets\\uploadsImageGrammar\\thi-hien-tai-hoan-thanh.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Listening2.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Listening2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Listening3.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Listening3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Listening4.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Listening4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1.1.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1.1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1.2.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1.2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1.3.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1.3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1.4.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1.4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1.5.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1.5.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_2.0.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_2.0.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_2.1.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_2.1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_2.2.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_2.2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_2.3.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_2.3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_2.4.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_2.4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_3.0.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_3.0.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_3.1.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_3.1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_3.2.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_3.2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_3.3.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_3.3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_3.4.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_3.4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_4.1.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_4.1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_4.2.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_4.2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_4.3.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_4.3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part1_4.4.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part1_4.4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\Part_1.4.0.png",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\Part_1.4.0.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageListen\\listening_part1_so_easy.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageListen\\listening_part1_so_easy.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Part5_2.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Part5_2.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part7-1.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part7-1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part7-2.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part7-2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part7-3.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part7-3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part7-4.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part7-4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part72.1.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part72.1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part72.2.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part72.2.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part72.3.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part72.3.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part72.4.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part72.4.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Read_Part72.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Read_Part72.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\Readings_Part7_Test.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\Readings_Part7_Test.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\logofit.png",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\logofit.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\read_part6.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\read_part6.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\read_part62.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\read_part62.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageRead\\readings_part5_so_easy.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageRead\\readings_part5_so_easy.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.address.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.address.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.avoid.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.avoid.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.business plan.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.business plan.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.demonstrate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.demonstrate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.develop.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.develop.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.evaluate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.evaluate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.gather.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.gather.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.offer.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.offer.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.primarily.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.primarily.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.risk.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.risk.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\2.strategy.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\2.strategy.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.access.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.access.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.allocate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.allocate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.compatible.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.compatible.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.computerandtheinternet.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.computerandtheinternet.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.delete.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.delete.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.display.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.display.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.duplicate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.duplicate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.failure.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.failure.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.figure_out.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.figure_out.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.ignore.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.ignore.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\3.search.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\3.search.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.basis.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.basis.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.benefit.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.benefit.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.compensate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.compensate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.delicately.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.delicately.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.eligible.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.eligible.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.flexibly.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.flexibly.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.negotiate.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.negotiate.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.raise.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.raise.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.retire.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.retire.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.summer.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.summer.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\6.vested.jpg",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\6.vested.jpg"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\computer_internet_1.png",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\computer_internet_1.png"
+    },
+    {
+      "Id": "C:\\MyProject\\WebToeic\\WebToeic.WebAppMVC\\wwwroot\\uploadsImageVoca\\logofit.png",
+      "PackagePath": "staticwebassets\\uploadsImageVoca\\logofit.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebToeic.WebAppMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebToeic.WebAppMVC.props",
+      "PackagePath": "build\\WebToeic.WebAppMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebToeic.WebAppMVC.props",
+      "PackagePath": "buildMultiTargeting\\WebToeic.WebAppMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebToeic.WebAppMVC.props",
+      "PackagePath": "buildTransitive\\WebToeic.WebAppMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

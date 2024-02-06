@@ -1,0 +1,320 @@
+﻿@using WebToeic.WebAppMVC.ViewModels
+
+@model GetDoListenVM
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Exam";
+}
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<section class="section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                
+                <form method="post" asp-action="DoListenPost" asp-controller="UserListen" id="listenForm">
+                    @if (Model != null && Model.listenQuestions != null)
+                    {
+                        @foreach (var item in Model.listenQuestions)
+                        {
+                            <div class="question">
+                                <div class="question-wrapper mb-4">
+                                    <div class="row" style="background-color: lightgray;">
+                                        @if (item.AudioL != null)
+                                        {
+                                            <div class="col-md-12">
+                                                <audio controls style="margin-top: 10px;">
+                                                    <source src="~/uploadsAudioListen/@item.AudioL" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+                                        }
+
+                                    </div>
+
+                                    <div class="row" style="background-color: lightgray;">
+                                        <div class="col-md-6">
+                                            <p class="font-weight-bold h5">Question @item.Order . @item.Question</p>
+                                        </div>
+                                        @if (item.Photo != null)
+                                        {
+                                            <div class="col-md-6" style="background-color: lightgray;">
+                                                <img src="~/uploadsImageListen/@item.Photo" alt="Question Image" class="img-fluid">
+                                            </div>
+                                        }
+
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <h4>Answers:</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-1" value="A" data-correctanswer="A">
+                                                <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-1">
+                                                    @item.Answer1
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-2" value="B" data-correctanswer="B">
+                                                <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-2">
+                                                    @item.Answer2
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            @if (item.Answer3 != null)
+                                            {
+                                                <div class="form-check">
+                                                    <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-3" value="C" data-correctanswer="C">
+                                                    <label class="form-check-label h5 correct-answer-label " for="answer_@item.Id-3">
+                                                        @item.Answer3
+                                                    </label>
+
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            @if (item.Answer4 != null)
+                                            {
+                                                <div class="form-check">
+                                                    <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-4" value="D" data-correctanswer="D">
+                                                    <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-4">
+                                                        @item.Answer4
+                                                    </label>
+
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <div class="explanation" hidden>
+                                                <h4>Lời giải thích: @item.Explain</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        }
+                    }
+                    <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+
+                    <!-- Kết quả -->
+                    @*<div id="resultDiv" hidden>
+                        <h3>Result</h3>
+                        <div id="correctCount"></div>
+
+                    </div>*@
+                    <div id="resultDiv" class="d-flex flex-column align-items-center justify-content-center bg-success text-white mt-3" hidden>
+                        <h3 class="text-white">Kết quả sẽ hiện sau khi ấn Submit!</h3>
+                        <div id="correctCount" class="text-white">
+                            <h3 class="text-white"><span id="correctCountValue"></span></h3>
+                        </div>
+                    </div>
+                </form>
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    $(document).ready(function () {                      
+                                       
+                        $('#listenForm').submit(function (event) {
+                            event.preventDefault();
+                            var formData = new FormData(this);                          
+
+                            // Gửi dữ liệu đến server
+                            $.ajax({
+                                url: '@Url.Action("DoListen", "UserListen")', // Địa chỉ URL xử lý dữ liệu ở phía server
+                                type: 'POST', // Phương thức gửi dữ liệu là POST
+                                processData: false, // Kiểu dữ liệu gửi đi là JSON
+                                contentType: false,
+                                data: formData,//JSON.stringify(userAnswers)//, // Dữ liệu gửi đi được chuyển thành chuỗi JSON
+                                success: function (result) {
+                                    // Xử lý kết quả trả về từ server Hiển thị kết quả
+                                    console.log(result);
+                                    $("#resultDiv").removeAttr("hidden");;
+                                    $("#correctCountValue").text("Số câu đúng: " + result.correctCount);
+
+                                    $(".explanation").removeAttr("hidden");
+
+                                    // Hiển thị dấu tick và dấu X  result.answers,
+                                    $.each(result.answers, function (index, item) {
+                                        var questionDiv = $(".question").eq(index);
+                                        
+                                        var selectedAnswer = questionDiv.find("input[type='radio']:checked");
+                                        
+                                        var correctAnswer = questionDiv.find("input[type='radio'][data-correctanswer='" + item.correctAnswer + "']");
+                                        
+                                        if (selectedAnswer.length > 0) {                               
+                                            if (selectedAnswer.val() === item.correctAnswer) {
+                                                
+                                                correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                            } else {
+                                                selectedAnswer.next("label.correct-answer-label").css("color", "red");
+                                                
+                                                correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                
+                                            }
+                                        } else {
+                                            
+                                            correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                        }
+
+                                        // Hiển thị phần giải thích
+                                        //questionDiv.find(".explanation").removeAttr("hidden");;
+                                    });
+                                },
+                                error: function (xhr, status, error) {
+                                    // Xử lý lỗi nếu có
+                                }
+
+                            });
+
+                            
+                            
+                        });
+                    });
+                </script>
+                <hr class="invis">
+
+            </div><!-- end col -->          
+        </div><!-- end row -->
+        <!-- Display Comment -->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">Commenting System</h5>
+                        <form method="post" asp-action="CreateCommentListen" asp-controller="UserListen" asp-route-id="@Model.Listen.Id">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea asp-for="ContentL" class="form-control" placeholder="Leave a comment here"></textarea>
+                                        <label asp-for="ContentL"></label>
+                                        <span asp-validation-for="ContentL" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col form-group">
+                                    <input type="submit" class="btn btn-success" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.CommentListens.Any())
+            {
+
+                <div class="col-12 mt-2">
+                    <div class="border border-primary rounded p-2">
+                        <ul>
+                            @foreach (var comment in Model.CommentListens)
+                            {
+                                <li>
+                                    <div class="@(comment.ParentCommentId == null ? "card mt-2 border-primary" : "card mt-2 ml-5")">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@comment.UserNameCmtL</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">@comment.Time</h6>
+                                            <p class="card-text">@comment.Content</p>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#replyModal" data-comment-id="@comment.Id">Reply</button>
+
+                                        </div>
+                                    </div>
+                                    @foreach (var cmt in comment.Replies)
+                                    {
+                                    <li>
+                                        <div class="@(cmt.ParentCommentId == null ? "card mt-2 border-primary" : "card mt-2 ml-5")">
+                                            <div class="card-body">
+                                                <h5 class="card-title">@cmt.UserNameCmtL</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">@cmt.Time</h6>
+                                                <p class="card-text">@cmt.Content</p>
+                                                    @*<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#replyModal" data-comment-id="@cmt.Id">Reply</button>*@
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </li>
+                                    }
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Reply Comment -->
+        <div class="modal fade" id="replyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="replyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-primary" id="replyModalLabel">Reply to this comment ...</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form asp-action="CreateCommentListen" asp-controller="UserListen" asp-route-id="@Model.Listen.Id" id="CreateCommentForm">
+                                <input asp-for="ParentCommentIdL" hidden />
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-floating">
+                                            <textarea asp-for="ContentL" class="form-control" placeholder="Leave a comment here"></textarea>
+                                            <label asp-for="ContentL"></label>
+                                            <span asp-validation-for="ContentL" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        @*https://www.w3schools.com/tags/att_button_form.asp *@
+                        <input type="submit" class="btn btn-outline-primary" value="Send message" form="CreateCommentForm">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            var replyModal = document.getElementById('replyModal');
+            // Send selected comment data to the reply modal.
+            replyModal.addEventListener('show.bs.modal', function (event) {
+                var button = event.relatedTarget;
+                var commentId = button.getAttribute('data-comment-id');
+                replyModal.querySelector('.modal-body #ParentCommentIdL').value = commentId;
+            });
+
+        </script>
+
+    </div><!-- end container -->
+</section>
+
+
+
+

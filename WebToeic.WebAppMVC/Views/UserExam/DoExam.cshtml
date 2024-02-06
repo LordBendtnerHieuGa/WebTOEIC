@@ -1,0 +1,262 @@
+﻿@using WebToeic.WebAppMVC.ViewModels
+
+@model GetDoExamVM
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //ViewData["Title"] = "Exam";
+}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+           
+                <form method="post" asp-action="DoExamPost" asp-controller="UserExam" id="examForm">
+                    @if (Model != null && Model.testQuestions != null)
+                    {
+                        @foreach (var item in Model.testQuestions)
+                        {
+                            <div class="question">
+
+                                <div class="question-wrapper mb-4">
+                                    <div class="row" style="background-color: lightgray;">
+                                    @if (item.AudioMp3 != null)
+                                    {
+                                        <div class="col-md-12">
+                                            <audio controls style="margin-top: 10px;">
+                                                <source src="~/uploadsAudioExam/@item.AudioMp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                        </div>
+                                    }
+
+                                    </div>
+                                    <div class="row" style="background-color: lightgray;">
+                                        <div class="col-md-12">
+                                            <p class="font-weight-bold h5">@item.Paragraph</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="background-color: lightgray;">
+                                        <div class="col-md-6">
+                                            <p class="font-weight-bold h5">Question @item.Number . @item.Question</p>
+                                        </div>
+                                        @if (item.ImageTQ != null)
+                                        {
+                                            <div class="col-md-6" style="background-color: lightgray;">
+                                                <img src="~/uploadsImageExam/@item.ImageTQ" alt="Question Image" class="img-fluid">
+                                            </div>
+                                        }
+
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <h4>Answers:</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-1" value="A" data-question-index="@item.Number" data-correctanswer="A">
+                                                <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-1">
+                                                    @item.Option1
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-2" value="B" data-question-index="@item.Number" data-correctanswer="B">
+                                                <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-2">
+                                                    @item.Option2
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                        @if (item.Option3 != null)
+                                        {
+                                            <div class="form-check">
+                                                    <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-3" value="C" data-question-index="@item.Number" data-correctanswer="C">
+                                                    <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-3">
+                                                    @item.Option3
+                                                </label>
+                                            </div>
+                                        }
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-start">
+                                        <div class="col-md-12">
+                                        @if (item.Option4 != null)
+                                        {
+                                            <div class="form-check">
+                                                    <input class="form-check-input ml-1" type="radio" name="userAnswers[@item.Id]" id="answer_@item.Id-4" value="D" data-question-index="@item.Number" data-correctanswer="D">
+                                                    <label class="form-check-label h5 correct-answer-label" for="answer_@item.Id-4">
+                                                    @item.Option4
+                                                </label>
+                                            </div>
+                                        }
+                                        </div>
+                                    </div>                                 
+
+                                </div>
+                            </div>
+                        }
+                        <hr class="invis">
+                    }
+                    
+                    <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+                    <!-- Kết quả -->
+                    <div id="resultDiv" class="d-flex flex-column align-items-center justify-content-center bg-success text-white mt-3" hidden>
+                        <h3 class="text-white">Kết quả sẽ hiện sau khi ấn Submit!</h3>
+                        <div id="correctCount" class="text-white">
+                            <h3 class="text-white"><span id="correctCountValue"></span></h3>
+                        </div>
+                    </div>
+
+                </form>
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+
+                        $('#examForm').submit(function (event) {
+                            event.preventDefault();
+                            var formData = new FormData(this);
+
+                            // Gửi dữ liệu đến server
+                            $.ajax({
+                                url: '@Url.Action("DoExam", "UserExam")', // Địa chỉ URL xử lý dữ liệu ở phía server
+                                type: 'POST', // Phương thức gửi dữ liệu là POST
+                                processData: false, // Kiểu dữ liệu gửi đi là JSON
+                                contentType: false,
+                                data: formData,//JSON.stringify(userAnswers)//, // Dữ liệu gửi đi được chuyển thành chuỗi JSON
+                                success: function (result) {
+                                    // Xử lý kết quả trả về từ server Hiển thị kết quả
+                                    console.log(result);
+                                    $("#resultDiv").removeAttr("hidden");;
+                                    $("#correctCountValue").text("Số câu đúng: " + result.correctCount);
+
+
+                                    // Hiển thị dấu tick và dấu X  result.answers,
+                                    $.each(result.answers, function (index, item) {
+                                        var questionDiv = $(".question").eq(index);
+                                        
+                                        var selectedAnswer = questionDiv.find("input[type='radio']:checked");                                       
+                                        var correctAnswer = questionDiv.find("input[type='radio'][data-correctanswer='" + item.correctAnswer + "']");
+
+                                        if (selectedAnswer.length > 0) 
+                                        {
+                                            if (selectedAnswer.val() === item.correctAnswer) {
+                                               
+                                                correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                            } else {
+                                                selectedAnswer.next("label.correct-answer-label").css("color", "red");
+                                               
+                                                correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                               
+                                            }
+                                        } else {
+                                           
+                                            correctAnswer.next("label.correct-answer-label").css("color", "blue");
+                                        }
+
+                                        // Hiển thị phần giải thích
+                                        //questionDiv.find(".explanation").removeAttr("hidden");;
+                                    });
+                                },
+                                error: function (xhr, status, error) {
+                                    // Xử lý lỗi nếu có
+                                }
+
+                            });
+
+
+                        });
+                    });
+                </script>
+                <hr class="invis">
+                    
+            </div><!-- end col -->
+           
+            
+            <div class="col-lg-2 custom-margin">
+                <!-- <div class="sidebar"> -->
+                @*<div class="widget">*@
+                    <div id="countdown" class="col-lg-12 text-center display-4"></div>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function () {
+                            var countdownElement = $("#countdown");
+                            var submitButton = $("#submitBtn");
+
+                            var countDownDate = new Date();
+                            countDownDate.setMinutes(countDownDate.getMinutes() + 1); // Đặt đếm ngược từ 75 phút
+
+                            var countdownInterval = setInterval(function () {
+                                var now = new Date().getTime();
+                                var distance = countDownDate - now;
+                                var minutes = Math.floor((distance / (1000 * 60)) % 60); // Sửa thành phút
+                                var seconds = Math.floor((distance / 1000) % 60); // Sửa thành giây
+
+                                countdownElement.html("<h4>" + minutes + "m " + seconds + "s</h4>");
+
+                                if (distance < 0) {
+                                    clearInterval(countdownInterval);
+                                    countdownElement.html("<h4>Thời gian đã hết</h4>");
+                                    submitButton.trigger("click");
+                                }
+                            }, 1000);
+                        });
+                    </script>
+                @*</div><!-- end widget -->*@
+                <div id="question-list" style="display: flex; flex-wrap: wrap;"></div>
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        var questionList = $('#question-list');
+
+                        for (var i = 1; i <= 100; i++) {
+                            var square = $('<div>', { class: 'square' }).text(i);
+                            questionList.append(square);
+                        }
+
+                        $('input[type="radio"]').on('change', function () {
+                            // Xóa tất cả các ô vuông được đánh dấu trước đó
+                            //$('.square').text('');
+
+                            var questionIndex = $(this).data('question-index');
+                            var correspondingSquare = $('.square').eq(questionIndex - 1);
+                            correspondingSquare.text('X');
+                        });
+                    });
+                </script>
+                <style>
+                    .square {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 0;
+                        background-color: lightgray;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 5px;
+                        color: black;
+                    }
+                </style>
+                <!--</div><!-- end sidebar -->
+            </div><!-- end col -->
+
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+
+
+
+

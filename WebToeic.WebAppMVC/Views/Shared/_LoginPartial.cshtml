@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using WebToeic.WebAppMVC.Data.Entities;
+
+@inject SignInManager<User> signInManager
+@inject UserManager<User> userManager
+@inject RoleManager<Role> roleManager
+
+
+
+<ul class="navbar-nav mr-2">
+
+    @if (signInManager.IsSignedIn(User))
+    {
+        
+        <li class="nav-item">
+            <a class="nav-link" asp-route-id="@userManager.GetUserId(User)" asp-controller="UserInfor" asp-action="EditInforUser">Helllo @userManager.GetUserName(User)</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a>
+        </li>
+    }
+    else
+    {
+       
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+        </li>
+        <li class="nav-item">
+             <a class="nav-link" asp-controller="Account" asp-action="Register">Đăng kí</a>
+        </li>
+        <!-- fa fa-sign-in-->
+    }
+
+</ul>

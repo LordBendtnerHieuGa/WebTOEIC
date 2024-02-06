@@ -1,0 +1,153 @@
+﻿@using WebToeic.WebAppMVC.ViewModels
+@model ReadVM
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Quản lí bài Reading";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Quản lí bài Reading</h1>
+    <p class="mb-4">Tổng số bài viết: @Model.TotalRecord <span class="text-primary"></span> </p>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary d-inline-block">Danh sách bài Reading</h6>
+            <a class="btn btn-primary ml-5" href="/AdminRead/Create" role="button">Thêm mới bài Reading</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive-md">
+
+                <form action="/adminread" method="get" onsubmit="removeNullEmptyInputs()">
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="q">Search</label>
+
+                            <div class="form-group mr-2">
+                                <label for="level">Level:</label>
+                                <input type="text" class="form-control" id="level" name="levelRead" placeholder="Nhập level">
+                            </div>
+                            <div class="form-group mr-2">
+                                <label for="part">Part:</label>
+                                <input type="text" class="form-control" id="part" name="partRead" placeholder="Nhập part">
+                            </div>
+                            <div class="form-group mr-2">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="nameRead" placeholder="Nhập tên bài Reading">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Lọc" class="btn btn-primary" />
+                    </div>
+                </form>
+
+
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th><a href="/AdminRead/Index?orderBy=@Model.OrderByID">ID</a></th>
+                            <th><a href="/AdminRead/Index?orderBy=@Model.OrderByName">Tên bài Reading</a></th>
+                            <th><a href="/AdminRead/Index?orderBy=@Model.OrderByPart">Part</a></th>
+                            <th><a href="/AdminRead/Index?orderBy=@Model.OrderByLevel">Độ khó</a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Readings)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td class="w-25">@item.ReadingsName</td>
+                                <td class="w-25">@item.Part</td>
+                                <td class="w-25">@item.Level</td>
+
+                                <td>
+
+                                   @* <a asp-action="Edit" asp-controller="AdminRead" asp-route-id="@item.Id">Edit</a> |
+                                    <a onclick="deleteReadFunction(@item.Id)" href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>*@
+                                    <button type="button" class="btn btn-primary" onclick="editRead('@item.Id')">Edit</button>
+                                    <button type="button" class="btn btn-danger" onclick="deleteReadFunction('@item.Id')">Delete</button>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>       
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-12 col-md-7">
+            <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
+                <ul class="pagination d-flex justify-content-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            @if (Model.CurrentPage > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="/AdminRead/Index?nameread=@Model.NameRead&orderBy=@Model.OrderBy&currentPage=@(Model.CurrentPage-1)" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+
+                            }
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                if (i == Model.CurrentPage)
+                                {
+                                    <li class="page-item"><a class="page-link active" href="/AdminRead/Index?nameread=@Model.NameRead&orderBy=@Model.OrderBy&currentPage=@i">@i</a></li>
+                                }
+                                else
+                                {
+                                    <li class="page-item"><a class="page-link" href="/AdminRead/Index?nameread=@Model.NameRead&orderBy=@Model.OrderBy&currentPage=@i">@i</a></li>
+                                }
+
+                            }
+                            @if (Model.CurrentPage < Model.TotalPages)
+                            {
+
+                                <li class="page-item">
+                                    <a class="page-link" href="/AdminRead/Index?nameread=@Model.NameRead&orderBy=@Model.OrderBy&currentPage=@(Model.CurrentPage+1)" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    function deleteReadFunction(id) {
+        if (confirm("Bạn có chắc chắn muốn xoá bản ghi này ?")) {
+            $.ajax({
+                url: '/AdminRead/Delete/' + id,
+                type: 'POST',
+                success: function (result) {
+                    // Xử lý khi xoá thành công
+                    alert("Xoá thành công");
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý khi có lỗi
+                    alert("Xoá không thành công. Vui lòng thử lại sau.");
+                }
+            });
+        }
+    }
+
+    function editRead(id) {
+        window.location.href = '/AdminRead/Edit/' + id;
+    }
+
+</script>

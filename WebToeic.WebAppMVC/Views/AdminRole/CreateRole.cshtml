@@ -1,0 +1,51 @@
+﻿
+@using WebToeic.WebAppMVC.ViewModels
+@model CreateRoleVM
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Thêm Role mới";
+}
+
+
+<div class="text-center" style="padding-top: 20px;">
+    <h2>Thêm Role mới</h2>
+</div>
+<div class="container">
+    <div class="row border border-info rounded p-4">
+        <div class="col-6 offset-3">
+            <form method="post" href="/AdminVocabulary/CreateRole" enctype="multipart/form-data">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="RoleName"></label>
+                    <input asp-for="RoleName" class="form-control" />
+                    <span asp-validation-for="RoleName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RoleDescription"></label>
+                    <input asp-for="RoleDescription" class="form-control" />
+                    <span asp-validation-for="RoleDescription" class="text-danger"></span>
+                </div>
+                
+                <button type="button" class="btn btn-danger" onclick="CancelLFunction()">Cancel</button>
+                <button type="submit" class="btn btn-sm btn-primary float-right"> Create Role </button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function CancelLFunction() {
+        window.location.href = '/AdminRole';
+    }
+
+</script>

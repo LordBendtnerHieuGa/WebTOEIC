@@ -1,0 +1,104 @@
+﻿@using WebToeic.WebAppMVC.ViewModels
+@model AdminHomeDasboardVM
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Bảng thống kê</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">Dashboard</li>
+    </ol>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng người dùng:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalUser</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bài từ vựng:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalVoca</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bài ngữ pháp:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalGrammar</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bài nghe: </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalListen</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bài đọc:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalRead</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bài thi:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalExam</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng Role:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalRole</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bình luận bài từ vựng:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalCmtVoca</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bình luận bài ngữ pháp:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalCmtGramar</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bình luận bài nghe:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalCmtListen</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">Số lượng bình luận bài đọc:</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <h4>@Model.TotalCmtRead</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

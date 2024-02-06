@@ -1,0 +1,152 @@
+﻿@using WebToeic.WebAppMVC.ViewModels
+@model CommentAndGrammarVM
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Grammar";
+}
+<!-- Tệp JavaScript của Bootstrap (bao gồm jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+@*<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>*@
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1>Chủ đề: </h1><h2> @Model.Grammar.GrammarName</h2>
+
+            <img src="~/uploadsImageGrammar/@Model.Grammar.ImageG" alt="Ảnh bài giới từ" style="width: 100%; max-width: 800px; height: auto;">
+            @Html.Raw(Model.Grammar.HtmlContent)
+            @*@Html.Raw("<div style='font-size: 40px;'>" + Model.Grammar.HtmlContent + "</div>")*@
+        </div>
+    </div>
+
+    <!-- Display Comment -->
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Commenting System</h5>
+                    <form method="post" asp-action="CreateCommentGrammar" asp-controller="UserGrammar" asp-route-id="@Model.Grammar.Id">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <textarea asp-for="ContentG" class="form-control" placeholder="Leave a comment here"></textarea>
+                                    <label asp-for="ContentG"></label>
+                                    <span asp-validation-for="ContentG" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col form-group">
+                                <input type="submit" class="btn btn-success" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        @if (Model.CommentGrammars.Any())
+        {
+
+            <div class="col-12 mt-2">
+                <div class="border border-primary rounded p-2">
+                    <ul>
+                        @foreach (var comment in Model.CommentGrammars)
+                        {
+                            <li>
+                                <div class="@(comment.ParentCommentId == null ? "card mt-2 border-primary" : "card mt-2 ml-5")">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@comment.UserNameCmtG</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">@comment.Time</h6>
+                                        <p class="card-text">@comment.Content</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#replyModal" data-comment-id="@comment.Id">Reply</button>
+
+                                    </div>
+                                </div>
+                                @foreach (var cmt in comment.Replies)
+                                {
+                                <li>
+                                    <div class="@(cmt.ParentCommentId == null ? "card mt-2 border-primary" : "card mt-2 ml-5")">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@cmt.UserNameCmtG</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">@cmt.Time</h6>
+                                            <p class="card-text">@cmt.Content</p>
+                                            @*<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#replyModal" data-comment-id="@cmt.Id">Reply</button>*@
+
+                                        </div>
+                                    </div>
+
+                                        
+
+                                </li>
+                                }
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Reply Comment -->
+    <div class="modal fade" id="replyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="replyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="replyModalLabel">Reply to this comment ...</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form asp-action="CreateCommentGrammar" asp-controller="UserGrammar" asp-route-id ="@Model.Grammar.Id" id="CreateCommentForm">
+                            <input asp-for="ParentCommentIdG" hidden />
+                            
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea asp-for="ContentG" class="form-control" placeholder="Leave a comment here"></textarea>
+                                        <label asp-for="ContentG"></label>
+                                        <span asp-validation-for="ContentG" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    @*https://www.w3schools.com/tags/att_button_form.asp *@
+                    <input type="submit" class="btn btn-outline-primary" value="Send message" form="CreateCommentForm">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var replyModal = document.getElementById('replyModal');
+        // Send selected comment data to the reply modal.
+        replyModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget;
+            var commentId = button.getAttribute('data-comment-id');
+            replyModal.querySelector('.modal-body #ParentCommentIdG').value = commentId;
+        });
+
+    </script>
+   @* <script>
+        $(document).ready(function () {
+            var replyModal = document.getElementById('replyModal');
+            // Send selected comment data to the reply modal.
+            $(replyModal).on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var commentId = button.data('comment-id');
+                replyModal.querySelector('.modal-body #ParentCommentIdG').value = commentId;
+            });
+        });
+    </script>*@
+</div>
+
