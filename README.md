@@ -1,4 +1,3 @@
-# Do An Tot Nghiep
 # Website Toeic project
 # Technologies
 - ASP.NET 6
